@@ -139,6 +139,7 @@ test(containsValue([1,2,,3], '2'), false, "containsValue 5")
 //zero
 function copyArray(myArray, targetArray){
     targetArray.push(...myArray)
+    return targetArray
 }
 
 let a1 = [1,3,5,8]
