@@ -138,7 +138,7 @@ test(containsValue([1,2,,3], '2'), false, "containsValue 5")
 //assume the target array has a legnth of
 //zero
 function copyArray(myArray, targetArray){
-
+    targetArray.push(...myArray)
 }
 
 let a1 = [1,3,5,8]
