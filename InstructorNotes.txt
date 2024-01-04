@@ -1,0 +1,63 @@
+//Function expressions
+let add = function(x,y){return x+y;}
+let addToo = (x,y) => x+y
+
+add(3,4)
+addToo(3,4)
+
+//Semicolons are optional.. although your linter plugin may balk... or not
+//on expressions longer than 1 line you need parentheses
+let x = (
+    <div>
+        <p>This is an example of JSX</p>
+    </div>
+)
+
+//This needs parentheses
+return x +
+       5
+
+//so.. what about these things vs. these things
+var vs. (let + const)
+function vs. arrow functions
+destructuring
+string interpolation
+
+//What about jquery?
+
+//What about prototype chains
+
+//what about enumeral properies, own properties,
+
+//what about destructuring
+let student = {firstName: "Bart", lastName: "simpson"}
+let { firstName } = student;
+let students = ["lisa", "bart", "baby"]
+let family = [...students, "marge", "homer"]
+let studentAlso = {...student, age: 20 }
+
+//what about making readonly
+
+//what about extending prototypes
+
+//In javascript properties can access two ways
+person.firstName = "Bart"
+person["firstName"] = "Lisa"
+
+//works
+person["First Name"] = "Marge"
+//does not works becuase typed props cannot have spaces
+person.First Name = "Marge" 
+
+//what about for of and for each
+
+//what is the deal with classes
+
+//what about NaN?
+
+//What about infinity
+
+//what about handling money
+
+//what about handling fractionals
+
