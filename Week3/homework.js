@@ -152,7 +152,11 @@ test(a2[3], 8, "copyArray 2")
 //write a loops that prints all
 //the numbers from 0 to 1000
 //only print the numbers divisible by 30
-
+for ( let i = 0; i <= 100; i++) {
+    if ([i] % 30 === 0) {
+        console.log([i])
+    }
+}
 //write a for loop that prints the following
 //shape
 //    *
