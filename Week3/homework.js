@@ -187,7 +187,7 @@ for ( let i = 0; i <= 3; i++) {
 function fizzBuzz(val){
 
 }
-
+//working
 test(fizzBuzz(3), "fizz", "fizzBuzz 1")
 test(fizzBuzz(5), "buzz", "fizzBuzz 2")
 test(fizzBuzz(15), "fizz buzz", "fizzBuzz 3")
