@@ -164,6 +164,11 @@ for ( let i = 0; i <= 100; i++) {
 //    * * *
 //    * * * * 
 
+let arr = ''
+for ( let i = 0; i <= 3; i++) {
+    arr = arr + '*'
+        console.log(arr)
+}
 //write a for loop that prints the following shape
 //        *
 //       ***
