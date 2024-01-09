@@ -184,9 +184,20 @@ for ( let i = 0; i <= 3; i++) {
 //only print one of the values based on the conditions
 //hint use the mod operator %
 //for integers not divisible by either 3 or 5 return empty string
-function fizzBuzz(val){
-
-}
+function fizzBuzz(val) {
+    let fizzAnswer = []
+    for (let i = 0; i < val.length; i++) {
+        if (val[i] % 3 === 0 && val[i] % 5 === 0) {
+        console.log('fizzbuzz');
+    } else if (val[i] % 3 === 0) {
+        console.log('fizz');
+    } else if (val[i] % 5 === 0) {
+        console.log('buzz');
+    } else {
+        console.log(' ');
+    }
+    }
+  }
 //working
 test(fizzBuzz(3), "fizz", "fizzBuzz 1")
 test(fizzBuzz(5), "buzz", "fizzBuzz 2")
