@@ -186,18 +186,19 @@ for ( let i = 0; i <= 3; i++) {
 //for integers not divisible by either 3 or 5 return empty string
 function fizzBuzz(val) {
     let fizzAnswer = []
-    for (let i = 0; i < val.length; i++) {
-        if (val[i] % 3 === 0 && val[i] % 5 === 0) {
-        console.log('fizzbuzz');
-    } else if (val[i] % 3 === 0) {
-        console.log('fizz');
-    } else if (val[i] % 5 === 0) {
-        console.log('buzz');
-    } else {
-        console.log(' ');
+    for (let i = 1; i <= val; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            fizzAnswer.push('fizzbuzz');
+        } else if (i % 3 === 0) {
+            fizzAnswer.push('fizz');
+        } else if (i % 5 === 0) {
+            fizzAnswer.push('buzz');
+        } else {
+            fizzAnswer.push(' ');
+        }
     }
-    }
-  }
+    return fizzAnswer.toString()
+}
 //working
 test(fizzBuzz(3), "fizz", "fizzBuzz 1")
 test(fizzBuzz(5), "buzz", "fizzBuzz 2")
