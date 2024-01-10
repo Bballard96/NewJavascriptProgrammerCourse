@@ -174,6 +174,11 @@ for ( let i = 0; i <= 3; i++) {
 //       ***
 //      *****
 //     *******
+for (let i = 1; i <= 4; i++) {
+    let spaces = ' '.repeat(4 - i)
+    let stars = '*'.repeat(2 * i - 1)
+    console.log(spaces + stars)
+}
 
 //exercise 10
 //BONUS points
