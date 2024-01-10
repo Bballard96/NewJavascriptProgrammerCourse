@@ -1,6 +1,6 @@
 //create a function name myFilter
 //that takes an array and filters by conditon
-funcion myFilter(myArray, callBack){
+function myFilter(myArray, callBack){
 
 }
 
